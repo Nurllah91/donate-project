@@ -77,6 +77,7 @@ p.sec-description {
     color: #403e3e;
     border-radius: 7px;
     margin-left: 15px;
+    border: 3px solid white;
 }
 
 .another-amnt {
@@ -91,4 +92,41 @@ p.sec-description {
     background: rgba(255, 0, 0, 0.236);
     
 
+}
+
+
+.plan-container {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+}
+
+.plans {
+    margin: 20px;
+    padding: 50px 50px;
+    text-align: left;}
+.plans h3 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 28px;
+}
+.plans p {
+    font-size: 20px;
+    text-align: left;
+    color: #646161;
+    font-weight: 500;
+}
+.plans:first-child {
+    background: #0bed5b2e;
+    border-radius: 7px;
+}
+
+.plans:last-child {
+    background: #ffc0cb5e;
+    border-radius: 7px;
+}
+
+.plans:nth-child(2) {
+    background: #ffc0cb40;
+    border-radius: 7px;
 }
